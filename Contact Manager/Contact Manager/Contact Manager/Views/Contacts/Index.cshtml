@@ -9,10 +9,10 @@
 <p>
     <a asp-action="Create">Create New</a>
 </p>
-<form asp-controller="Contact" asp-action="Index" method="get">
+<form asp-controller="Contacts" asp-action="Index" method="get">
     <p>
-        Title: <input type="text" asp-action="SearchString" />
-        <input type="submit" value="Filter" />
+        <input type="text" name="SearchString" />
+        <input type="submit" value="Search" />
     </p>
 </form>
 <table class="table">
